@@ -1,0 +1,42 @@
+.logo {
+  width: 100px;
+  height: auto;
+}
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 30rem;
+  min-height: 75vh;
+  text-align: justify;
+}
+
+.nav-link.active {
+  background-color: rgba(78, 6, 66, 0.973) !important;
+  color: white !important;
+}
+.nav-link:hover {
+  background-color: rgba(196, 39, 182, 0.45);
+  color: white;
+}
+.navbar {
+  min-width: 100%;
+}
+header {
+  background-color: rgba(196, 39, 182, 0.45);
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: rgba(218, 93, 207, 0.329);
+}
+table tr:hover {
+  background-color: rgba(196, 39, 182, 0.45);
+  color: white;
+}
+thead {
+  background-color: rgba(78, 6, 66, 0.973);
+  color: white;
+  position: sticky;
+  top: 0;
+}
